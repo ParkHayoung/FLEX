@@ -32,7 +32,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
+    self.navigationBar.translucent = YES;
     self.waitingToAddTab = YES;
     
     // Add gesture to reveal toolbar if hidden
